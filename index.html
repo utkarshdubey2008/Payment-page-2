@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pay via UPI</title>
+
+<style>
+  .pay-btn {
+    background: #4caf50;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    transition: 0.2s;
+  }
+  .pay-btn:hover {
+    background: #43a047;
+    transform: scale(1.05);
+  }
+</style>
+
+</head>
+<body>
+
+<center>
+  <a class="pay-btn"
+     href="intent://pay?pa=paytm.s15iod1@pty&pn=Rogger&am=1&cu=INR&tr=TRX20251118145030003FB4&tn=Payment#Intent;scheme=upi;package=com.google.android.apps.nbu.paisa.user;end;">
+     Pay ₹1 with Google Pay
+  </a>
+</center>
+
+</body>
+</html>
